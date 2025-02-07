@@ -1,0 +1,21 @@
+/* universal selector */
+*{
+    margin: 0;
+}
+/* Tyope Selector*/
+h1{
+    text-align: center;
+    background-color: green;
+}
+p{
+    border: 1px solid rgb(238, 245, 238);
+}
+h2{
+    background-color: rgb(149, 177, 149);
+}
+#first{
+    border: 3px solid rgb(114, 124, 114)
+}
+.abcd{
+    background-color: rgb(119, 18, 214);
+}
