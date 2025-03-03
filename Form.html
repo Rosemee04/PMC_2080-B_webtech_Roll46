@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Form example</h1>
+    <form action="" method="" name="register">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="Enter name">
+        <br />
+        <label for="username">Username</label>
+        <input type="text" name="username" name="username" placeholder="Enter username">
+        <br />
+        <label for="phone">Phone</label>
+        <input type="number" name="phone" placeholder="Enter phone" value="" >
+        <br />
+        <label for="country">Country</label>
+        <select name="" id="">
+            <option value="">Select Country</option>
+            <optgroup label="Asia">Asia
+                <option value="nepal">Nepal</option>
+                <option value="nepal">India</option>
+                <option value="nepal">China</option>
+            </optgroup>
+           <optgroup label="Europe">
+                <option value="">Finland</option>
+                <option value="">Malta</option>
+           </optgroup>
+        </select>
+        <br />
+        <label for="">Gender</label>
+        <!-- name of radio button must be same -->
+        <input type="radio" name="gender" value="male">Male
+        <input type="radio" name="gender" value="female">Female
+        <br  />
+        <label for="">Games</label>
+        <input type="checkbox" name="games[]" value="Football"> Football
+        <input type="checkbox" name="games[]" value="Cricket"> Cricket
+        <br />
+        <label for="">Profile Image</label>
+        <input type="file" name="profile">
+        <br />
+        <label for="">Feedback</label>
+        <textarea name="feedback" id=""></textarea>
+        <br />
+        <input type="checkbox" name="term" value="term"> I accept Term & Condition
+        <br />
+        <input type="button" value="Register">
+        <input type="reset" value="Clear">
+    </form>
+</body>
+</html>

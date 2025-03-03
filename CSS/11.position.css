@@ -1,0 +1,23 @@
+#photo{
+    position: relative;
+    left: 100px;
+}
+.test{
+    position: relative;
+    top: 100px;
+    left: 200px;
+    font-size: xx-large;
+    background-color: #0F0;
+    height: 500px;
+    width: 200px;
+}
+nav{
+    background-color: #0F0;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+#back{
+    position: fixed;    
+    bottom: 0;
+}

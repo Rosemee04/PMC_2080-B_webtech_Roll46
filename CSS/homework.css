@@ -1,0 +1,47 @@
+*{
+    padding: 10px;
+}
+.box{
+    float: left;
+    box-sizing: border-box;
+    width: 50%;
+    font-size: xx-large;
+    border: 1px solid #000;
+
+}
+.tab{
+    clear: both;
+    font-size: xx-large;
+    border: 1px solid #000;
+    color: #fff;
+}
+#logo{
+    background-color: #0f0;
+}
+#media{
+    background-color: #f00;
+    text-align: right;
+
+}
+#tabs{
+    background-color: #00f;
+}
+#notice{
+    background-color: #990;
+    height: 500px;
+}
+#about{
+    background-color: #909;
+    height: 500px;
+    text-align: center;
+}
+#client{
+    background-color: #099;
+}
+#service{
+    background-color: #f00;
+}
+#copy{
+    background-color: #00f;
+    text-align: center;
+}

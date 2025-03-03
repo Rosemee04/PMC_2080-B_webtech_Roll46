@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+
+fieldset{
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+}
+fieldset legend{
+    text-align: center;
+}
+
+div.form-group{
+    border-bottom:1px solid green;
+    padding: 10px 20px;
+}
+
+.form-group label {
+    width: 100px;
+    display: inline-block;
+}
+
+.form-group input,select{
+    width: 60%;
+}
+
+.form-group input[type=radio],input[type=checkbox]{
+    width: 5%;
+}
+
+.form-group textarea{
+    width: 60%;
+}
+
+.form-group input[type=submit],input[type=reset]{
+    width: 100px;
+}
+
+.success{
+    background-color: rgb(33, 121, 33);
+    color: white;
+    border: none;
+    padding: 5px 0;
+}
+
+.danger{
+    background-color: rgb(208, 45, 23);
+    color: white;
+    border: none;
+    padding: 5px 0;
+}
+
+.success:hover{
+    background-color: #9a3;
+}
+
+
+div:last-child{
+    border: none;
+}
+
+div:nth-child(3n){
+    background-color: rgb(169, 169, 196);
+}
+
+div:nth-child(3n+1){
+    background-color: rgb(187, 240, 236);
+}

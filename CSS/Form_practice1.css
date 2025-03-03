@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+fieldset{
+    width: 60%;
+    margin: auto;
+    border: 1px solid #000;
+}
+fieldset legend{
+    text-align: center;
+}
+div.form-group{
+    padding: 10px 20px;
+}
+.form-group input[type=submit],input[type=reset]{
+    width: 20%;
+}
+.button{
+    color: #fff;
+    border: none;
+    padding: 5px 0;
+}
+#reg{
+    background-color: #00f;
+}
+#cls{
+    background-color: gray;
+}
+div:last-child{
+    border: none;
+}
+#reg:hover{
+    background-color: #007;
+}
+#cls:hover{
+    background-color: #000;
+}

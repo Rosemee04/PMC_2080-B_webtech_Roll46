@@ -1,0 +1,29 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+#left{
+    width:25%;
+    background-color: blue;
+}
+.common{
+    text-align: center;
+    height: 500px;
+    padding: 10px;
+    color: #fff;
+    float: left;
+    font-size: xx-large;
+    border: 10px solid black;
+}
+#center{
+    width: 75%;
+    background-color: #0f0;
+}
+.box{
+    clear: both;
+    background-color: yellowgreen;
+    font-size: xx-large;
+    text-align: center;
+    border: 10px solid black;
+}
