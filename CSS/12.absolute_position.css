@@ -1,0 +1,25 @@
+.container{
+    position: relative;
+    color: #FFF;
+}
+.Black-box{
+    background-color: black;
+    position: relative;
+    top: 50px;
+    height: 100px;
+    margin: 30px;
+}
+.Green-box{
+    position: absolute;
+    left: 50px;
+    height: 75px;
+    width: 100px;
+    background-color:#0F0 ;
+}
+.Gray-box{
+    position: absolute;
+    top: 50px;
+    height: 60px;
+    width: 150px;
+    background-color: gray;
+}
