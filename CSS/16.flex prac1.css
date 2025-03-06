@@ -1,0 +1,9 @@
+.Flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.Flex-container div{
+    width: 25%;
+}

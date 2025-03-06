@@ -1,0 +1,19 @@
+.Flex-container :nth-child(2n){
+    background-color: #0F0;
+}
+.Flex-container :nth-child(2n-1){
+    background-color: #000;
+}
+.Flex-container div{
+    color: #fff;
+    width: 30%;
+    padding: 10px;
+}
+.Flex-container{
+    display: flex;
+    border: 2px solid #00f;
+    padding: 5px 5px;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
