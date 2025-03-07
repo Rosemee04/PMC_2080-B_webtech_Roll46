@@ -1,0 +1,39 @@
+
+#logo{
+    height: 75px;
+    width: 100%;
+    background-color: rgb(125, 226, 226);
+}
+#menu{
+    height: 150px;
+    background-color: rgb(10, 245, 245);
+    width: 30%;
+    float: left;
+}
+#content{
+    height: 150px;
+    background-color: rgb(107, 14, 228);
+    width: 70%;
+    float: left;
+}
+#footer{
+    clear: both;
+    height: 75px;
+    background-color: rgb(20, 223, 54);
+    width: 100%;
+}
+@media sreen and (max-size=600px)
+{
+    #logo{
+        height: 15px;
+        width: 15px;
+        float: left;
+    }
+    #menu{
+        height: 15px;
+        float: left;
+    }
+    #content{
+        height: ;
+    }
+}
