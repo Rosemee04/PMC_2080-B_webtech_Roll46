@@ -22,18 +22,25 @@
     background-color: rgb(20, 223, 54);
     width: 100%;
 }
-@media sreen and (max-size=600px)
+@media (max-width:600px)
 {
     #logo{
-        height: 15px;
-        width: 15px;
+        height: 15%;
+        width: 15%;
         float: left;
     }
     #menu{
-        height: 15px;
+        height: 15%;
+        width: 85%;
         float: left;
     }
     #content{
-        height: ;
+        height: 50%;
+        width: 100%;
+        clear: both;
+    }
+    #footer{
+        height: 15%;
+        width: 100%;
     }
 }
