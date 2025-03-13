@@ -1,0 +1,11 @@
+ul li {
+    border: 1px solid #000;
+    list-style: none;
+    width: 10%;
+    background-color: #00f;
+    text-align: center;
+    color: #fff;
+}
+ul li:hover{
+    background-color: rgb(153, 153, 248);
+}
