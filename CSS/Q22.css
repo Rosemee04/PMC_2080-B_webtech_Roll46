@@ -1,20 +1,58 @@
+*{
+    box-sizing: border-box;
+}
 div{
     text-align: center;
+}
+.tt{
+    height: 100px;
 }
 #Header{
     background-color: #f00;
 }
-#left{
+.body{
+    display: flex;
+    height: 400px;
+}
+#Left{
     background-color: yellow;
+    width: 20%;
 }
 #Main{
     background-color: #fff;
+    width: 60%;
 }
 #Right{
     background-color: #0f0;
+    width: 20%;
 }
 #Footer{
+    clear: both;
     background-color: #00f;
 }
-@media (max-width:600px)
-{}
+@media (max-width:480px){
+    div{
+        display: flex;
+        flex-direction: column;
+    }
+    #Left{
+        width: 100%;
+    }
+    #Main{
+        width: 100%;
+    }
+    #Right{
+        width: 100%;
+    }
+    .body{
+        height: auto;
+    }
+    .tt{
+        height: auto;
+    }
+}
+@media (max-width:600px){
+    #Main{
+        width: 100%;
+    }
+}

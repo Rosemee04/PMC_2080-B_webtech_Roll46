@@ -1,0 +1,24 @@
+#Header{
+    background-color: purple;
+    height: 100px;
+    text-align: center;
+}
+#Left{
+    background-color: brown;
+}
+#Content{
+    background-color: blue;
+}
+#Right{
+    background-color: blueviolet;
+}
+.main{
+    float: left;
+    height: 300px;
+    width: 500px;
+}
+.gray{
+    clear: both;
+    background-color: gray;
+    height: 50px;
+}
