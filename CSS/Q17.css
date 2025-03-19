@@ -1,17 +1,30 @@
-nav{
-    float: right;
-    background-color: blue;
-    color: #fff;
+body{
+    background-color: #f0f0f0;
 }
-nav div a{
+nav div a {
     text-decoration: none;
     color: #fff;
 }
-nav div{
-    width: 10%;
+div{
+    background-color: #00f;
+    float: left;
+    color: #fff;
+}
+.gg{
     padding: 10px;
 }
-@media (max-width:600px) {
-    clear: both;
-
+#Mystery{
+    margin: 0;
+    width: 55%;
+}
+@media (max-width:500px)
+{
+    div{
+        clear: both;
+    }
+    .gg{
+        border: 1px solid #000;
+    }
+}
+#home{
 }

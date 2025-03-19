@@ -1,0 +1,20 @@
+div{
+    text-align: center;
+}
+#Header{
+    background-color: #f00;
+}
+#left{
+    background-color: yellow;
+}
+#Main{
+    background-color: #fff;
+}
+#Right{
+    background-color: #0f0;
+}
+#Footer{
+    background-color: #00f;
+}
+@media (max-width:600px)
+{}
