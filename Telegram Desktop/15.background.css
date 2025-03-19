@@ -1,0 +1,11 @@
+#data{
+    height: 1500px;
+    width: 100%;
+    border: 2px solid green;
+    background: url(../images/5.png);
+    background-image: url(../images/6.jpg);
+    background-size: 100%;
+    background-position: left;
+    background-attachment: fixed;
+
+}

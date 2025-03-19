@@ -1,0 +1,9 @@
+.gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.gallery div{
+    border: 3px solid black;
+}

@@ -1,0 +1,18 @@
+nav{
+    background-color: yellow;
+    display: flex;
+    list-style: none;
+}
+nav div{
+    width: 5%;
+    border-right: 1px solid black;
+    padding: 5px;
+}
+nav div :hover{
+    background-color: blue;
+    color: white;
+    padding: 5px;
+}
+nav div a{
+    text-decoration: none;
+}

@@ -1,0 +1,17 @@
+nav{
+    float: right;
+    background-color: blue;
+    color: #fff;
+}
+nav div a{
+    text-decoration: none;
+    color: #fff;
+}
+nav div{
+    width: 10%;
+    padding: 10px;
+}
+@media (max-width:600px) {
+    clear: both;
+
+}
