@@ -1,8 +1,18 @@
+*{
+    box-sizing: border-box;
+}
 h1{
     text-align: center;
+    width: 100%;
 }
 h2{
     color: #00f;
+}
+.body {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    width: 30%;
 }
 fieldset{
     padding: 15px;

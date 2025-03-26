@@ -1,7 +1,5 @@
 *{
     box-sizing: border-box;
-}
-div{
     text-align: center;
 }
 .tt{
@@ -10,21 +8,22 @@ div{
 #Header{
     background-color: #f00;
 }
-.body{
-    display: flex;
+.sides{
+    width: 20%;
     height: 400px;
 }
 #Left{
     background-color: yellow;
-    width: 20%;
+    float: left;
 }
 #Main{
     background-color: #fff;
     width: 60%;
+    display: inline-block;
 }
 #Right{
     background-color: #0f0;
-    width: 20%;
+    float: right;
 }
 #Footer{
     clear: both;
@@ -44,15 +43,32 @@ div{
     #Right{
         width: 100%;
     }
-    .body{
-        height: auto;
-    }
     .tt{
         height: auto;
     }
+    .sides{
+        height: auto;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
 }
 @media (max-width:600px){
+    div{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
     #Main{
         width: 100%;
+    }
+    .sides{
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        height: auto;
     }
 }

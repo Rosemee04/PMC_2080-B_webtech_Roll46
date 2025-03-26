@@ -1,13 +1,17 @@
 body{
     background-color: #f0f0f0;
 }
+nav{
+    background-color: #00f;
+}
 nav div a {
     text-decoration: none;
     color: #fff;
 }
 div{
-    background-color: #00f;
-    float: left;
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     color: #fff;
 }
 .gg{
@@ -15,12 +19,13 @@ div{
 }
 #Mystery{
     margin: 0;
-    width: 55%;
 }
 @media (max-width:500px)
 {
     div{
-        clear: both;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
     }
     .gg{
         border: 1px solid #000;

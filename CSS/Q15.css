@@ -1,18 +1,22 @@
 nav{
+    padding: 15px;
     background-color: yellow;
     display: flex;
     list-style: none;
+    text-align: center;
 }
-nav div{
+div{
     width: 5%;
     border-right: 1px solid black;
-    padding: 5px;
 }
-nav div :hover{
+a:hover{
     background-color: blue;
-    color: white;
+    color: #fff;
     padding: 5px;
 }
-nav div a{
+a{
     text-decoration: none;
+}
+div:last-child{
+    border: none;
 }

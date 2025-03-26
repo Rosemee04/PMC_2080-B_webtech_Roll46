@@ -1,24 +1,26 @@
 #Header{
     background-color: purple;
-    height: 100px;
+    height: 75px;
     text-align: center;
 }
 #Left{
     background-color: brown;
 }
 #Content{
-    background-color: blue;
+    background-color: #00f;
+    width: 60%;
 }
 #Right{
     background-color: blueviolet;
 }
-.main{
-    float: left;
+.body{
+    display: flex;
     height: 300px;
-    width: 500px;
+}
+.side{
+    width: 20%;
 }
 .gray{
-    clear: both;
     background-color: gray;
     height: 50px;
 }
