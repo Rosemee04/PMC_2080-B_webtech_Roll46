@@ -1,3 +1,10 @@
+*{
+    text-align: center;
+    margin: 10px;
+}
+body{
+    background-color: #f0f0f0;
+}
 .gallery{
     display: flex;
     flex-direction: row;
@@ -5,5 +12,12 @@
     justify-content: space-evenly;
 }
 .gallery div{
-    border: 3px solid black;
+    border: 3px solid #000;
+    background-color: #fff;
+}
+h5{
+    margin: 2px;
+}
+img{
+    margin: 5px;
 }

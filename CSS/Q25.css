@@ -1,0 +1,19 @@
+body {
+  text-align: center;
+  background-color: #f0f0f0;
+}
+.card {
+  float: left;
+  margin: 10px;
+  border-radius: 15px;
+  background-color: #fff;
+}
+img {
+  width: 100%;
+  border-radius: 99%;
+}
+@media (max-width=600px) {
+  div {
+    align-content: center;
+  }
+}

@@ -28,6 +28,7 @@
 #Footer{
     clear: both;
     background-color: #00f;
+    color: #fff;
 }
 @media (max-width:480px){
     div{
@@ -48,12 +49,6 @@
     }
     .sides{
         height: auto;
-    }
-    body{
-        display: flex;
-        flex-direction: column;
-        height: auto;
-        width: 100%;
     }
 }
 @media (max-width:600px){
