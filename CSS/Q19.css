@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    background-image: url("back.jpg");
 }
 h1{
     text-align: center;
@@ -8,11 +9,12 @@ h1{
 h2{
     color: #00f;
 }
-.body {
+.full {
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
-    width: 30%;
+    width: 40%;
+    margin: auto;
 }
 fieldset{
     padding: 15px;

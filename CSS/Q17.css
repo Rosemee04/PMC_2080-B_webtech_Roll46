@@ -20,16 +20,21 @@ div{
 #Mystery{
     margin: 0;
 }
+button {
+    display: none;
+}
 @media (max-width:500px)
 {
+    button {
+        display: block;
+    }
     div{
         display: flex;
         flex-direction: column;
         text-align: center;
     }
     .gg{
+        display: none;
         border: 1px solid #000;
     }
-}
-#home{
 }
