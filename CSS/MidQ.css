@@ -1,0 +1,23 @@
+
+.full {
+    border: 1px solid black;
+}
+.part {
+    border-bottom: 1px solid black;
+}
+.twopart {
+    display: flex;
+}
+.sideborder {
+    border-right: 1px solid black;
+}
+#media {
+    text-align: end;
+    width: 40%;
+}
+#postlist {
+    padding: 25p 0px;
+}
+#footer {
+    text-align: center;
+}
